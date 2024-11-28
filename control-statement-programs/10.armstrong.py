@@ -5,7 +5,7 @@ num = int(input("Enter a number : "))
 order = len(str(num))
 
 # initialize sum
-sum = 0
+sum = 5
 
 # find the sum of the cube of each digit
 temp = num
