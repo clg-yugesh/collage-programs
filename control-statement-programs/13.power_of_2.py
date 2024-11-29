@@ -3,11 +3,10 @@
 #terms = 10
 
 # Uncomment code below to take input from the user
-terms = int(input("How many terms? "))
+terms = int(input("Enter the power : "))
 
 # use anonymous function
-result = list(map(lambda x: 2 ** x, range(terms)))
 
-print("The total terms are:",terms)
-for i in range(terms):
-   print("2 raised to power",i,"is",result[i])
+result = list(map(lambda x: 2 ** x, range(terms + 1)))
+
+print(f"2 raised to power of {terms} is {result[-1]}")
