@@ -4,8 +4,8 @@ print(tup)
 
 print(type(tup))
 
-a = str(tup)
+tup = str(tup)
 
-print(a)
+print(tup)
 
-print(type(a))
+print(type(tup))
