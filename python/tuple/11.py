@@ -1,4 +1,7 @@
 tup = ('H','e','l','l','o')
 
-for i in tup:
-    print(i,end='')
+print("Tuple : ",tup)
+
+result = ''.join(tup)
+
+print("String :",result)

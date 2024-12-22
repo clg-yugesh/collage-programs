@@ -2,10 +2,12 @@ tup = (0, 1, 2, 3, 4, 3, 5)
 
 print("Tuple before removing : ",tup)
 
-tup_list = list(tup)
+tup = list(tup)
 
-tup_list.remove(2)
+num = int(input("Enter an index number to remove :"))
 
-tup = tuple(tup_list)
+tup.remove(num)
+
+tup = tuple(tup)
 
 print("Tuple after removing an element:", tup)
